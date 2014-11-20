@@ -9,9 +9,9 @@ using System.Windows.Forms;
 
 namespace SampleEditorsDevExpress
 {
-    public partial class Form1 : Form
+    public partial class frmWord : Form
     {
-        public Form1()
+        public frmWord()
         {
             InitializeComponent();
         }
