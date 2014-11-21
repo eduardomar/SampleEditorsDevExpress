@@ -16,3 +16,5 @@ C:\Users\Flexible\Documents\GitHub\SampleEditorsDevExpress\SampleEditorsDevExpre
 C:\Users\Flexible\Documents\GitHub\SampleEditorsDevExpress\SampleEditorsDevExpress\SampleEditorsDevExpress\bin\Debug\SampleEditorsDevExpress.pdb
 C:\Users\Flexible\Documents\GitHub\SampleEditorsDevExpress\SampleEditorsDevExpress\SampleEditorsDevExpress\obj\x86\Debug\SampleEditorsDevExpress.exe
 C:\Users\Flexible\Documents\GitHub\SampleEditorsDevExpress\SampleEditorsDevExpress\SampleEditorsDevExpress\obj\x86\Debug\SampleEditorsDevExpress.pdb
+C:\Users\Flexible\Documents\GitHub\SampleEditorsDevExpress\SampleEditorsDevExpress\SampleEditorsDevExpress\obj\x86\Debug\SampleEditorsDevExpress.csprojResolveAssemblyReference.cache
+C:\Users\Flexible\Documents\GitHub\SampleEditorsDevExpress\SampleEditorsDevExpress\SampleEditorsDevExpress\obj\x86\Debug\SampleEditorsDevExpress.frmExcel.resources

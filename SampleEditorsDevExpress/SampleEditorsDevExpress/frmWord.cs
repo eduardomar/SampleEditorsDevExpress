@@ -40,5 +40,10 @@ namespace SampleEditorsDevExpress
             richEditControl1.Options.MailMerge.DataSource = dataSourece;
             dataNavigator1.DataSource = dataSourece; 
         }
+
+        private void frmWord_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

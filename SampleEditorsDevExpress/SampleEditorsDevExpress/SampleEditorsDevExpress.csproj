@@ -112,6 +112,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="frmWord.resx">
       <DependentUpon>frmWord.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmExcel.resx">
       <DependentUpon>frmExcel.cs</DependentUpon>
     </EmbeddedResource>
