@@ -1,12 +1,3 @@
-C:\Projects\SampleEditorsDevExpress\SampleEditorsDevExpress\SampleEditorsDevExpress\obj\x86\Debug\SampleEditorsDevExpress.frmExcel.resources
-C:\Projects\SampleEditorsDevExpress\SampleEditorsDevExpress\SampleEditorsDevExpress\obj\x86\Debug\SampleEditorsDevExpress.Menu.resources
-C:\Projects\SampleEditorsDevExpress\SampleEditorsDevExpress\SampleEditorsDevExpress\obj\x86\Debug\SampleEditorsDevExpress.Properties.Resources.resources
-C:\Projects\SampleEditorsDevExpress\SampleEditorsDevExpress\SampleEditorsDevExpress\obj\x86\Debug\SampleEditorsDevExpress.csproj.GenerateResource.Cache
-C:\Projects\SampleEditorsDevExpress\SampleEditorsDevExpress\SampleEditorsDevExpress\obj\x86\Debug\SampleEditorsDevExpress.exe.licenses
-C:\Projects\SampleEditorsDevExpress\SampleEditorsDevExpress\SampleEditorsDevExpress\bin\Debug\SampleEditorsDevExpress.exe
-C:\Projects\SampleEditorsDevExpress\SampleEditorsDevExpress\SampleEditorsDevExpress\bin\Debug\SampleEditorsDevExpress.pdb
-C:\Projects\SampleEditorsDevExpress\SampleEditorsDevExpress\SampleEditorsDevExpress\obj\x86\Debug\SampleEditorsDevExpress.exe
-C:\Projects\SampleEditorsDevExpress\SampleEditorsDevExpress\SampleEditorsDevExpress\obj\x86\Debug\SampleEditorsDevExpress.pdb
 C:\Users\Flexible\Documents\GitHub\SampleEditorsDevExpress\SampleEditorsDevExpress\SampleEditorsDevExpress\obj\x86\Debug\SampleEditorsDevExpress.frmWord.resources
 C:\Users\Flexible\Documents\GitHub\SampleEditorsDevExpress\SampleEditorsDevExpress\SampleEditorsDevExpress\obj\x86\Debug\SampleEditorsDevExpress.Menu.resources
 C:\Users\Flexible\Documents\GitHub\SampleEditorsDevExpress\SampleEditorsDevExpress\SampleEditorsDevExpress\obj\x86\Debug\SampleEditorsDevExpress.Properties.Resources.resources
@@ -16,5 +7,18 @@ C:\Users\Flexible\Documents\GitHub\SampleEditorsDevExpress\SampleEditorsDevExpre
 C:\Users\Flexible\Documents\GitHub\SampleEditorsDevExpress\SampleEditorsDevExpress\SampleEditorsDevExpress\bin\Debug\SampleEditorsDevExpress.pdb
 C:\Users\Flexible\Documents\GitHub\SampleEditorsDevExpress\SampleEditorsDevExpress\SampleEditorsDevExpress\obj\x86\Debug\SampleEditorsDevExpress.exe
 C:\Users\Flexible\Documents\GitHub\SampleEditorsDevExpress\SampleEditorsDevExpress\SampleEditorsDevExpress\obj\x86\Debug\SampleEditorsDevExpress.pdb
+<<<<<<< HEAD
 C:\Users\Flexible\Documents\GitHub\SampleEditorsDevExpress\SampleEditorsDevExpress\SampleEditorsDevExpress\obj\x86\Debug\SampleEditorsDevExpress.csprojResolveAssemblyReference.cache
 C:\Users\Flexible\Documents\GitHub\SampleEditorsDevExpress\SampleEditorsDevExpress\SampleEditorsDevExpress\obj\x86\Debug\SampleEditorsDevExpress.frmExcel.resources
+=======
+C:\Projects\SampleEditorsDevExpress\SampleEditorsDevExpress\SampleEditorsDevExpress\bin\Debug\SampleEditorsDevExpress.exe
+C:\Projects\SampleEditorsDevExpress\SampleEditorsDevExpress\SampleEditorsDevExpress\bin\Debug\SampleEditorsDevExpress.pdb
+C:\Projects\SampleEditorsDevExpress\SampleEditorsDevExpress\SampleEditorsDevExpress\obj\x86\Debug\SampleEditorsDevExpress.frmWord.resources
+C:\Projects\SampleEditorsDevExpress\SampleEditorsDevExpress\SampleEditorsDevExpress\obj\x86\Debug\SampleEditorsDevExpress.frmExcel.resources
+C:\Projects\SampleEditorsDevExpress\SampleEditorsDevExpress\SampleEditorsDevExpress\obj\x86\Debug\SampleEditorsDevExpress.Menu.resources
+C:\Projects\SampleEditorsDevExpress\SampleEditorsDevExpress\SampleEditorsDevExpress\obj\x86\Debug\SampleEditorsDevExpress.Properties.Resources.resources
+C:\Projects\SampleEditorsDevExpress\SampleEditorsDevExpress\SampleEditorsDevExpress\obj\x86\Debug\SampleEditorsDevExpress.csproj.GenerateResource.Cache
+C:\Projects\SampleEditorsDevExpress\SampleEditorsDevExpress\SampleEditorsDevExpress\obj\x86\Debug\SampleEditorsDevExpress.exe.licenses
+C:\Projects\SampleEditorsDevExpress\SampleEditorsDevExpress\SampleEditorsDevExpress\obj\x86\Debug\SampleEditorsDevExpress.exe
+C:\Projects\SampleEditorsDevExpress\SampleEditorsDevExpress\SampleEditorsDevExpress\obj\x86\Debug\SampleEditorsDevExpress.pdb
+>>>>>>> origin/master
