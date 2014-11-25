@@ -5,6 +5,7 @@ using System.Windows.Forms;
 using DevExpress.Spreadsheet;
 using DevExpress.XtraBars.Ribbon;
 using System.Collections.Generic;
+using DevExpress.Spreadsheet.Export;
 
 namespace SampleEditorsDevExpress
 {
@@ -16,6 +17,16 @@ namespace SampleEditorsDevExpress
         public bool AddHeader { get; set; }
         public int FirstRowIndex { get; set; }
         public int FirstColIndex { get; set; }
+
+        public Worksheet Worksheet(int index)
+         {
+            if(index >= 0 && index < spreadsheetControl1.Document.Worksheets.Count)
+             {
+                 return spreadsheetControl1.Document.Worksheets[index];
+             }
+
+            return null;
+         }
 
         private void Initialize(String path, DataTable dt, DataSet ds)
          {
@@ -45,19 +56,29 @@ namespace SampleEditorsDevExpress
             Initialize(null, null, ds);
          }
 
-        private void frmExcel_Shown(object sender, EventArgs e)
+        public void ExportToDataTable()
+         {
+            Worksheet worksheet = spreadsheetControl1.Document.Worksheets[0];
+            DataTable dataTable = worksheet.CreateDataTable(worksheet.GetUsedRange(), true);
+            DataTableExporter exporter = worksheet.CreateDataTableExporter(worksheet.GetUsedRange(), dataTable, true);
+            exporter.Export();
+         }
+
+        public void Create()
         {
             if(dt != null)
              {
+                spreadsheetControl1.Document.Styles.Add("HeaderStyle");
                 Worksheet worksheet = spreadsheetControl1.Document.Worksheets[0];
+                
+                
                 //TableStyleCollection tableStyle = spreadsheetControl1.Document.TableStyles;
 
                 worksheet.Name = dt.TableName;
                 worksheet.Import(dt, AddHeader, FirstRowIndex, FirstColIndex);
 
-                Table table = worksheet.Tables.Add(worksheet["A1:B4"], true);
-                // Format the table by applying a built-in table style.
-                table.Style = spreadsheetControl1.Document.TableStyles[BuiltInTableStyleId.TableStyleDark1];
+                /*Table table = worksheet.Tables.Add(worksheet.Range.FromLTRB(FirstColIndex, FirstRowIndex, dt.Columns.Count - 1, dt.Rows.Count), true);
+                table.Style = spreadsheetControl1.Document.TableStyles[BuiltInTableStyleId.TableStyleLight9];*/
              }
             else if(ds != null && ds.Tables.Count > 0)
              {
@@ -79,6 +100,9 @@ namespace SampleEditorsDevExpress
 
                     worksheet.Name = ds.Tables[i].TableName;
                     worksheet.Import(ds.Tables[i], AddHeader, FirstRowIndex, FirstColIndex);
+
+                    /*Table table = worksheet.Tables.Add(worksheet.Range.FromLTRB(FirstColIndex, FirstRowIndex, ds.Tables[i].Columns.Count - 1, ds.Tables[i].Rows.Count), true);
+                    table.Style = spreadsheetControl1.Document.TableStyles[BuiltInTableStyleId.TableStyleLight9];*/
                  }
              }
             else if(path != null && File.Exists(path))
@@ -88,6 +112,12 @@ namespace SampleEditorsDevExpress
                 using (FileStream stream = new FileStream(path, FileMode.Open))
                 {
                     workbook.LoadDocument(stream, DocumentFormat.OpenXml);
+
+                    foreach(Worksheet worksheet in workbook.Worksheets)
+                     {
+                        worksheet.GetUsedRange().AutoFitRows();
+                        worksheet.GetUsedRange().AutoFitColumns();
+                     }
                 }
              }
 

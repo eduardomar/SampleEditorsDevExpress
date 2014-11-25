@@ -34,6 +34,7 @@ namespace SampleEditorsDevExpress
                 frmExcel.AddHeader = true;
                 frmExcel.FirstColIndex = 0;
                 frmExcel.FirstRowIndex = 0;
+                frmExcel.Create();
                 frmExcel.Show();
              }
             else if(radioGroup1.SelectedIndex == 1)
@@ -64,6 +65,8 @@ namespace SampleEditorsDevExpress
                 frmExcel.AddHeader = true;
                 frmExcel.FirstColIndex = 0;
                 frmExcel.FirstRowIndex = 0;
+                frmExcel.Create();
+                frmExcel.Worksheet(0).Name = "Funciona";
                 frmExcel.Show();
              }
             else if(radioGroup1.SelectedIndex == 2)
@@ -74,6 +77,8 @@ namespace SampleEditorsDevExpress
                     frmExcel.AddHeader = true;
                     frmExcel.FirstColIndex = 0;
                     frmExcel.FirstRowIndex = 0;
+                    frmExcel.Create();
+                    frmExcel.ExportToDataTable();
                     frmExcel.Show();
                  }
              }

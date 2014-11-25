@@ -17,3 +17,4 @@ C:\Projects\SampleEditorsDevExpress\SampleEditorsDevExpress\SampleEditorsDevExpr
 C:\Projects\SampleEditorsDevExpress\SampleEditorsDevExpress\SampleEditorsDevExpress\obj\x86\Debug\SampleEditorsDevExpress.exe.licenses
 C:\Projects\SampleEditorsDevExpress\SampleEditorsDevExpress\SampleEditorsDevExpress\obj\x86\Debug\SampleEditorsDevExpress.exe
 C:\Projects\SampleEditorsDevExpress\SampleEditorsDevExpress\SampleEditorsDevExpress\obj\x86\Debug\SampleEditorsDevExpress.pdb
+C:\Projects\SampleEditorsDevExpress\SampleEditorsDevExpress\SampleEditorsDevExpress\obj\x86\Debug\SampleEditorsDevExpress.csprojResolveAssemblyReference.cache

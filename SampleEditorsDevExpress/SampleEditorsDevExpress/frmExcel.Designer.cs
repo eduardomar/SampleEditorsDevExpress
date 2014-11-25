@@ -763,7 +763,7 @@
             this.spreadsheetCommandBarButtonItem104,
             this.spreadsheetCommandBarButtonItem105});
             this.ribbonControl1.Location = new System.Drawing.Point(0, 0);
-            this.ribbonControl1.MaxItemId = 168;
+            this.ribbonControl1.MaxItemId = 169;
             this.ribbonControl1.Name = "ribbonControl1";
             this.ribbonControl1.Pages.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPage[] {
             this.fileRibbonPage1,
@@ -2696,7 +2696,6 @@
             this.Name = "frmExcel";
             this.Ribbon = this.ribbonControl1;
             this.Text = "frmExcel";
-            this.Shown += new System.EventHandler(this.frmExcel_Shown);
             ((System.ComponentModel.ISupportInitialize)(this.commandBarGalleryDropDown2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.ribbonControl1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemFontEdit1)).EndInit();
